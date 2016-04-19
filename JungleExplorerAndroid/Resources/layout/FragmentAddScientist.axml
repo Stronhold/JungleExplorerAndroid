@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FFImageLoading.Views.ImageViewAsync
+        android:src="@drawable/placeholder"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageScientist" />
+    <TextView
+        android:text="Name:"
+        android:id="@+id/tViewNameScientist"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageScientist"
+        android:layout_marginTop="25dp" />
+    <EditText
+        android:id="@+id/tEditNameScientist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tViewNameScientist"
+        android:layout_below="@id/imageScientist"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:layout_marginTop="6dp" />
+    <TextView
+        android:text="Description:"
+        android:id="@+id/tViewDescScientist"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tViewNameScientist"
+        android:layout_marginTop="25dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tEditDescScientist"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/tViewDescScientist"
+        android:layout_below="@id/tEditNameScientist" />
+</RelativeLayout>

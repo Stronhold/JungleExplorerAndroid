@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">JungleExlorer</string>
+	<string name="animals">Animals</string>
+	<string name="scientists">Scientists</string>
+    <string name="widget_name">Jungle Explorer Widget</string>
+    <string name="widget_loading">Jungle Explorer Loading</string>
+    <string name="settings">Jungle Explorer Setting</string>
+</resources>
